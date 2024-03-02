@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Home for Living</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!---Box-icons link--->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo8.png" />
+      </a>
+
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="h-btn">
+        <a href="#" class="h-btn1">Login</a>
+        <a href="#" class="h-btn2">Sign Up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <!--home section -->
+    <section class="home">
+      <div class="home-text" data-aos="zoom-in-up">
+        <h2>Your house is Waiting For You!</h2>
+        <p>
+          Your house is where all your favorite things live, where you make
+          awesome memories, and where you can just be you without any worries.
+        </p>
+        <div class="h-search">
+          <form>
+            <input
+              type="search"
+              placeholder="Search by location..."
+              class="search-input"
+            />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+      <div class="home-img" data-aos="zoom-in-up">
+        <img src="img/1.jpg" height="480px" width="510px" />
+      </div>
+    </section>
+    <!-- feature section-->
+    <section class="feature" data-aos="zoom-in-up">
+      <div class="center-left">
+        <h2>Feature In</h2>
+      </div>
+      <div class="feature-content">
+        <div class="f-img">
+          <img src="img/f1.png" />
+        </div>
+        <div class="f-img">
+          <img src="img/f2.png" />
+        </div>
+        <div class="f-img">
+          <img src="img/f3.png" />
+        </div>
+        <div class="f-img">
+          <img src="img/f4.png" />
+        </div>
+        <div class="f-img">
+          <img src="img/f5.png" />
+        </div>
+      </div>
+    </section>
+
+    <!--Property Section-->
+    <section class="--Property" data-aos="zoom-in-up">
+        <div class="center-left">
+          <h2>Popular Residence
+          </h2>
+        </div>
+        <div class="property-content">
+          <div class="row">
+          <img src="img/p11.jpg" height="320px" width="450px">
+          <h5>Binyamin Mellish</h5>
+          <p>Meridian, ID, United States</p>
+          <div class="list">
+            <a href="#" class="Residence-list">
+            <i class='bx bx-bed'></i>
+            5 Bed
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-bath'  ></i>
+            3 bath
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-shape-square'  ></i>
+            1208 sqft
+          </a>
+        </div>
+          </div>
+         
+          <div class="row">
+          <img src="img/p22.jpg" height="320px" width="450px">
+          <h5>Lighted Beige House          </h5>
+          <p>Boise, ID, United States</p>
+          <div class="list">
+            <a href="#" class="Residence-list">
+            <i class='bx bx-bed' ></i>
+            3 Bed
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-bath'  ></i>
+            2 bath
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-shape-square'  ></i>
+            1042 sqft
+          </a>
+        </div>
+          </div>
+          <div class="row">
+            <img src="img/p444.jpg" height="320px" width="450px">
+            <h5>White Wooden House
+            </h5>
+            <p>1077, Clinton, United States</p>
+            <div class="list">
+              <a href="#" class="Residence-list">
+              <i class='bx bx-bed' ></i>
+              8 Bed
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-bath' ></i>
+              5 bath
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-shape-square'  ></i>
+              2309 sqft
+            </a>
+          </div>
+            </div>
+            
+          <div class="row">
+            <img src="img/p22.jpg" height="320px" width="450px">
+            <h5>Lighted Beige House          </h5>
+            <p>Boise, ID, United States</p>
+            <div class="list">
+              <a href="#" class="Residence-list">
+              <i class='bx bx-bed' ></i>
+              3 Bed
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-bath'  ></i>
+              2 bath
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-shape-square'  ></i>
+              1042 sqft
+            </a>
+          </div>
+            </div>
+          
+          <div class="row">
+          <img src="img/p22.jpg" height="320px" width="450px">
+          <h5>Lighted Beige House          </h5>
+          <p>Boise, ID, United States</p>
+          <div class="list">
+            <a href="#" class="Residence-list">
+            <i class='bx bx-bed' ></i>
+            3 Bed
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-bath'  ></i>
+            2 bath
+          </a>
+            <a href="#" class="Residence-list">
+              <i class='bx bx-shape-square'  ></i>
+            1042 sqft
+          </a>
+        </div>
+          </div>
+          <div class="row">
+            <img src="img/p444.jpg" height="320px" width="450px">
+            <h5>White Wooden House
+            </h5>
+            <p>1077, Clinton, United States</p>
+            <div class="list">
+              <a href="#" class="Residence-list">
+              <i class='bx bx-bed' ></i>
+              8 Bed
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-bath' ></i>
+              5 bath
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-shape-square'  ></i>
+              2309 sqft
+            </a>
+          </div>
+            </div>
+            <div class="row">
+              <img src="img/p11.jpg" height="320px" width="450px">
+              <h5>Binyamin Mellish</h5>
+              <p>Meridian, ID, United States</p>
+              <div class="list">
+                <a href="#" class="Residence-list">
+                <i class='bx bx-bed'></i>
+                5 Bed
+              </a>
+                <a href="#" class="Residence-list">
+                  <i class='bx bx-bath'  ></i>
+                3 bath
+              </a>
+                <a href="#" class="Residence-list">
+                  <i class='bx bx-shape-square'  ></i>
+                1208 sqft
+              </a>
+            </div>
+              </div>    
+         
+          <div class="row">
+            <img src="img/p444.jpg" height="320px" width="450px">
+            <h5>White Wooden House
+            </h5>
+            <p>1077, Clinton, United States</p>
+            <div class="list">
+              <a href="#" class="Residence-list">
+              <i class='bx bx-bed' ></i>
+              8 Bed
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-bath' ></i>
+              5 bath
+            </a>
+              <a href="#" class="Residence-list">
+                <i class='bx bx-shape-square'  ></i>
+              2309 sqft
+            </a>
+          </div>
+            </div>
+        </div>
+        <div class="center-btn">
+          <a href="#" class="btn" >View All Properties</a>
+        </div>
+    </section>
+    <!--Agent Section-->
+    <section class="--Property" data-aos="zoom-in-up">
+        <div class="center-left">
+          <h2>Popular Agents
+          </h2>
+        </div>
+        <div class="property-content">
+          <div class="row">
+          <img src="img/m11.jpg" height="320px" width="450px">
+          <h5>Andrea Piacquadio</h5>
+          <p>Agent 1</p>
+          </div>   
+          <div class="row">
+          <img src="img/m2.jpg" height="500px" width="450px">
+          <h5>Robert</h5>
+          <p>Agent 2</p>
+          </div>   
+          <div class="row">
+          <img src="img/m3.jpg" height="320px" width="450px">
+          <h5>Walter</h5>
+          <p>Agent 3</p>
+          </div>   
+          <div class="row">
+          <img src="img/m4.jpg" height="320px" width="450px">
+          <h5>James Bond</h5>
+          <p>Agent 4</p>
+          </div>   
+          <div class="row">
+          <img src="img/m5.jpg" height="320px" width="450px">
+          <h5>Chrish Hemsworth</h5>
+          <p>Agent 5</p>
+          </div>   
+          <div class="row">
+          <img src="img/m6.jpg" height="320px" width="450px">
+          <h5>Henry Cavil</h5>
+          <p>Agent 6</p>
+          </div>   
+          <div class="row">
+          <img src="img/m7.jpg" height="320px" width="450px">
+          <h5>Mitchal Start</h5>
+          <p>Agent 7</p>
+          </div>   
+          <div class="row">
+          <img src="img/m8.jpg" height="320px" width="450px">
+          <h5>Peter Parkle</h5>
+          <p>Agent 8</p>
+          </div>   
+                 </div>
+        <div class="center-btn">
+          <a href="#" class="btn" >View All Agents</a>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" >
+      <div class="about-img" data-aos="zoom-in-up">
+        <img src="img/Group 1.png">
+      </div>
+      <div class="about-text" data-aos="zoom-in-up">
+        <h2> We help People to Find homes</h2>
+        <p>A home provides physical shelter, protecting individuals and families from the elements, natural disasters, and potential dangers. It serves as a secure and private space, offering a sense of safety and stability.</p>
+        <a href="#" class="btn">Join Us</a>
+      </div>
+    </section>
+
+    <!--Subscribe-->
+    <section class="Subscribe" data-aos="zoom-in-up">
+      <div class="Subscribe-content">
+      <h2>Let's Simply Being With Estate Market </h2>
+      <p>Involves properties designed for people to live in, such as houses, apartments, condominiums, and townhouses.  Includes properties used for manufacturing, warehousing, and distribution.</p>
+      <a href="#" class="btn"> Get Started</a>
+    </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" data-aos="zoom-in-up">
+      <div class-content> 
+        <img src="img/logo8.png" height="110px" width="120px">
+        <p>Real estate is a best House Provider. Contact us for more information. </p>
+        <div class="icons">
+          <a href="#"> <i class='bx bxl-facebook'></i></a>
+          <a href="#" ><i class='bx bxl-instagram' ></i></a>
+          <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+          <a href="#"><i class='bx bxl-youtube' ></i></a>
+        </div>
+      </div>
+      <div class="contact-content">
+        <h4>Projects</h4>
+      <li><a href="#">Houses</a></li>
+      <li><a href="#">Flats</a></li>
+      <li><a href="#">Warehouse</a></li>
+      <li><a href="#">Appartment</a></li>
+     </div>
+      <div class="contact-content">
+        <h4>Social Media</h4>
+      <li><a href="#">Youtube</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Whatsapp</a></li>
+     </div>
+     
+     <div class="contact-content">
+      <h4>Country</h4>
+    <li><a href="#">India</a></li>
+    <li><a href="#">USA</a></li>
+    <li><a href="#">Russia</a></li>
+    <li><a href="#">China</a></li>
+   </div>
+      <div class="contact-content">
+        <h4>About Us</h4>
+      <li><a href="#">Terms and Conditions</a></li>
+      <li><a href="#">Rules</a></li>
+      <li><a href="#">License</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+     </div>
+    </section>
+    <!--js-file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration:1200
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
